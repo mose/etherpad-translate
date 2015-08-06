@@ -24,13 +24,17 @@ include "nav.php";
 </div>
 
 <div class="translated">
-<iframe class="frame" src="<?php echo $epurl ?>/p/tw_home?showLineNumbers=false&showControls=false&useMonospaceFont=true"></iframe>
+<iframe class="frame" src="<?php echo $epurl ?>/p/tw_home?showLineNumbers=false&showControls=false&useMonospaceFont=true&noColors=true&showChat=false"></iframe>
 </div>
 
 </div>
 
 <div class="footer">
 </div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="site.js"></script>
 
 </body>
 </html>
