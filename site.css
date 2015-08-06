@@ -14,7 +14,7 @@ body {
 .navigation {
   width: 200px;
   padding: 0;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ba9;
   float: left;
 }
 .navigation ul {
@@ -24,12 +24,12 @@ body {
 .navigation ul li {
   list-style: none;
   padding: 5px 20px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ba9;
   cursor: pointer;
   color: #666;
 }
 .navigation ul li:hover {
-  background-color: #def;
+  background-color: #cba;
   color: #000;
 }
 .navigation ul li.focus {
@@ -37,12 +37,21 @@ body {
   color: #000;
 }
 .navigation ul li.status0:after {
-  content: "todo";
+  content: "TODO";
   float: right;
   margin-right: -15px;
   font-size: .6em;
   margin-top: .4em;
   font-weight: bold;
+}
+.navigation ul li.status1:after {
+  content: "WIP";
+  float: right;
+  margin-right: -15px;
+  font-size: .6em;
+  margin-top: .4em;
+  font-weight: bold;
+  color: #cc3;
 }
 /* body ------------------------ */
 .original {

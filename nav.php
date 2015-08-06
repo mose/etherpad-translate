@@ -1,5 +1,5 @@
 <ul class="nav">
-<li data-pad="en_home">home</li>
+<li data-pad="en_home" class="focus">home</li>
 <?php
 include 'config.php';
 include 'status.php';
