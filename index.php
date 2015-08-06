@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <html>
 <head>
 <title>TWVAL Translation Platform</title>
@@ -23,7 +24,7 @@ include "nav.php";
 </div>
 
 <div class="translated">
-<iframe class="frame" src="static_pad.php?pad=en_home"></iframe>
+<iframe class="frame" src="<?php echo $epurl ?>/p/tw_home?showLineNumbers=false&showControls=false&useMonospaceFont=true"></iframe>
 </div>
 
 </div>
