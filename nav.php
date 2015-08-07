@@ -6,13 +6,12 @@ include 'status.php';
 include 'etherpad.lib.php';
 $ep = new EtherpadLiteClient($apikey);
 
-#print_r($ep->createGroup());
-#var_dump($ep->createGroupPad($group_en, "en_help", "test text"));
 $pads = $ep->listAllPads();
 $status = list_status();
+
 foreach ($pads->padIDs as $pad) {
   if (substr($pad, 0, 2) == 'en' && $pad != "en_home")  {
-    if (!defined($status[$pad])) {
+    if (empty($status[$pad])) {
       $status[$pad] = 0;
       update_status($pad, 0);
     }

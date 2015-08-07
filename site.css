@@ -43,6 +43,7 @@ body {
   font-size: .6em;
   margin-top: .4em;
   font-weight: bold;
+  color: #a30;
 }
 .navigation ul li.status1:after {
   content: "WIP";
@@ -51,7 +52,16 @@ body {
   font-size: .6em;
   margin-top: .4em;
   font-weight: bold;
-  color: #cc3;
+  color: #973;
+}
+.navigation ul li.status2:after {
+  content: "DONE";
+  float: right;
+  margin-right: -15px;
+  font-size: .6em;
+  margin-top: .4em;
+  font-weight: bold;
+  color: #2a3;
 }
 /* body ------------------------ */
 .original {
