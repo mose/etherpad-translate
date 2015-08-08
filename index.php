@@ -2,13 +2,25 @@
 <html>
 <head>
 <title>TWVAL Translation Platform</title>
-<link href="site.css" rel="stylesheet" media="all" type="text/css" title="Main stylesheet" />
+<link href="style.css" rel="stylesheet" media="all" type="text/css" title="Main stylesheet" />
 </head>
 
 <body>
 
 <div class="header">
-TVWAL Translation platform
+<div class="wrapper">
+<a href="index.php" class="title">TVWAL Translation platform</a>
+<div class="status">
+<div class="page">
+home
+</div>
+<div class="buttons">
+<span class="status0">TODO</span>
+<span class="status1">WIP</span>
+<span class="status2">DONE</span>
+</div>
+</div>
+</div>
 </div>
 
 <div class="content">
