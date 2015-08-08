@@ -1,4 +1,6 @@
 <?php
 $apikey = ""; 
 $epurl = "http://yourpad.url:9001";
+
+$site_title = "Translation Platform";
 ?>

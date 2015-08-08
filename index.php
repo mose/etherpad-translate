@@ -1,7 +1,7 @@
 <?php include 'config.php'; ?>
 <html>
 <head>
-<title>TWVAL Translation Platform</title>
+<title><?php echo $site_title; ?></title>
 <link href="style.css" rel="stylesheet" media="all" type="text/css" title="Main stylesheet" />
 </head>
 
@@ -9,7 +9,7 @@
 
 <div class="header">
 <div class="wrapper">
-<a href="index.php" class="title">TVWAL Translation platform</a>
+<a href="index.php" class="title"><?php echo $site_title; ?></a>
 <div class="status">
 <div class="page">
 home
@@ -26,9 +26,7 @@ home
 <div class="content">
 
 <div class="navigation">
-<?php
-include "nav.php";
-?>
+<?php include "nav.php"; ?>
 </div>
 
 <div class="original">
