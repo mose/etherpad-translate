@@ -5,6 +5,7 @@ This is a simple php application designed to work in combination with etherpad-l
 
 The security level of that application is pretty low, and you should be careful if you want to appropriate it for your won usage.
 
+That small piece of code was first created to fit the translation needs of http://twval.org
 
 Copyright
 ----------
