@@ -15,7 +15,7 @@ function list_status() {
   return $back;
 }
 
-if (!empty($_POST['status']) and !empty($_POST['pad'])) {
+if (isset($_POST['status']) and isset($_POST['pad'])) {
   $status = preg_replace('/[^0-9]/', '', $_POST['status']);
   $pad = preg_replace("/[^-_a-z0-9]/i", "", $_POST['pad']);
   update_status($pad, $status);

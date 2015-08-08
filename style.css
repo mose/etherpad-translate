@@ -8,7 +8,74 @@ body {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
+}
+.header .wrapper {
+  width: 1200px;
+  position: relative;
+}
+.header a.title {
   font-size: 200%;
+  color: #fff;
+  text-decoration: none;
+}
+.header a.title:hover {
+  color: #ff9;
+}
+.header .status {
+  background-color: #eee;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -11px;
+  text-align: right;
+  border-radius: 5px 5px 0 0;
+}
+.header .status .page {
+  padding: 0 15px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid #ccc;
+}
+.header .status .buttons {
+  padding: 5px;
+  padding-bottom: 1px;
+}
+.header .status .buttons span {
+  padding: 1px 10px;
+  background-color: #666;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: .8em;
+  font-weight: bold;
+}
+.header .status .buttons span:hover {
+  padding: 0 9px;
+  border: 1px solid #000;
+}
+.header .status .buttons span.status0 {
+  background-color: transparent;
+  color: #a30;
+}
+.header .status .buttons span.status1 {
+  background-color: transparent;
+  color: #e70;
+}
+.header .status .buttons span.status2 {
+  background-color: transparent;
+  color: #2a3;
+}
+.header .status .buttons span.status0.focus {
+  background-color: #a30;
+  color: #fff;
+}
+.header .status .buttons span.status1.focus {
+  background-color: #e70;
+  color: #fff;
+}
+.header .status .buttons span.status2.focus {
+  background-color: #2a3;
+  color: #fff;
 }
 /* nav -------------------------- */
 .navigation {
@@ -52,7 +119,7 @@ body {
   font-size: .6em;
   margin-top: .4em;
   font-weight: bold;
-  color: #973;
+  color: #e70;
 }
 .navigation ul li.status2:after {
   content: "DONE";
