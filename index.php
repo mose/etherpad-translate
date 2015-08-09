@@ -12,7 +12,7 @@
 <a href="index.php" class="title"><?php echo $site_title; ?></a>
 <div class="status">
 <div class="page">
-home
+<?php echo $homepage; ?>
 </div>
 <div class="buttons">
 <span class="status0">TODO</span>
@@ -30,7 +30,7 @@ home
 </div>
 
 <div class="original">
-<iframe class="frame" src="static_pad.php?pad=en_home"></iframe>
+<iframe class="frame" src="static_pad.php?pad=<?php echo $homepad; ?>"></iframe>
 </div>
 
 <div class="translated">

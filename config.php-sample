@@ -3,4 +3,9 @@ $apikey = "";
 $epurl = "http://yourpad.url:9001";
 
 $site_title = "Translation Platform";
+$from_lang = "en";
+$to_lang = "tw";
+
+/* ------------------------------- */
+$homepad = $from_lang.'_'.$homepage;
 ?>

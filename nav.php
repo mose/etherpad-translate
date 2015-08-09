@@ -6,10 +6,10 @@ include 'etherpad.lib.php';
 $ep = new EtherpadLiteClient($apikey);
 
 $pads = $ep->listAllPads();
-$status = list_status();
+$status = list_status($from_lang);
 
-$list = array_diff(array_values($pads->padIDs), array("en_home"));
-array_unshift($list, 'en_home');
+$list = array_diff(array_values($pads->padIDs), array($homepad));
+array_unshift($list, $homepad);
 foreach ($list as $pad) {
   if (substr($pad, 0, 2) == 'en')  {
     if (!isset($status[$pad])) {

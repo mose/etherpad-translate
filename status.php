@@ -6,9 +6,9 @@ function update_status($pad, $status) {
   fclose($fp);
 }
 
-function list_status() {
+function list_status($lang) {
   $back = array();
-  foreach (glob("statuses/en_*") as $f) {
+  foreach (glob("statuses/${lang}_*") as $f) {
     $pad = basename($f);
     $back[$pad] = file_get_contents($f);
   }
