@@ -9,6 +9,8 @@ That small piece of code was first created to fit the translation needs of http:
 
 ![screenshot](http://eye.mose.com/2015-08-13-00-26_grab.png)
 
+![screenshot](http://eye.mose.com/2015-08-13-00-30_grab.png)
+
 Conventions
 --------------
 - Pages to be translated will be prefixed with `(lang-code)_`
