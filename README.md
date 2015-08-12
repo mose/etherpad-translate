@@ -7,6 +7,8 @@ The security level of that application is pretty low, and you should be careful 
 
 That small piece of code was first created to fit the translation needs of http://twval.org
 
+![screenshot](http://eye.mose.com/2015-08-13-00-26_grab.png)
+
 Conventions
 --------------
 - Pages to be translated will be prefixed with `(lang-code)_`
