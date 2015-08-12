@@ -20,10 +20,17 @@
 <span class="status2">DONE</span>
 </div>
 </div>
+<span class="glossary">
+glossary
+</span>
 </div>
 </div>
 
 <div class="content">
+
+<div class="glossary-panel">
+<iframe class="frame" src="static_pad.php?pad=glossary"></iframe>
+</div>
 
 <div class="navigation">
 <?php include "nav.php"; ?>

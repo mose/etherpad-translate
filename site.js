@@ -5,7 +5,9 @@ $(document).ready(function(){
   var title = pad.substring(3);
   var status = $(".nav li[data-pad=en_home]").attr("class").split(' ')[0].substr(6);
 
+  $(".glossary-panel").hide();
   $(".buttons span.status"+status).addClass('focus');
+
 
   function refresh_status() {
     $.get("last.php", function(data) {
@@ -38,6 +40,10 @@ $(document).ready(function(){
       $(".nav li[data-pad="+pad+"]").removeClass().addClass('status'+status);
       that.addClass('focus');
     });
+  });
+
+  $(".glossary").click(function(e) {
+    $(".glossary-panel").toggle();
   });
 
 });
